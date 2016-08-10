@@ -1,0 +1,274 @@
+<section>
+    <div id="banner" class="carousel slide" data-ride="carousel">
+        <div class="carousel-indicators-container">
+            <div class="container">
+                <ol class="carousel-indicators">
+                    <li data-target="#banner" data-slide-to="0" class="active"></li>
+                    <li data-target="#banner" data-slide-to="1"></li>
+                    <li data-target="#banner" data-slide-to="2"></li>
+                </ol>
+            </div>
+        </div>
+        <div class="carousel-inner" role="listbox">
+            <div class="item active" style="background-image: url(images/banner/banner.jpg);">
+                <div class="carousel-text">
+                    <h2>Nulla eu tristique neque!</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+                        <br> elit. Nulla eu tristique neque.</p>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(images/banner/banner.jpg);">
+                <div class="carousel-text">
+                    <h2>Nulla eu tristique neque!</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+                        <br> elit. Nulla eu tristique neque.</p>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(images/banner/banner.jpg);">
+                <div class="carousel-text">
+                    <h2>Nulla eu tristique neque!</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+                        <br> elit. Nulla eu tristique neque.</p>
+                </div>
+            </div>
+        </div>
+        <a class="left carousel-control" href="#banner" role="button" data-slide="prev">
+            <img src="images/banner/seta-esquerda.png">
+        </a>
+        <a class="right carousel-control" href="#banner" role="button" data-slide="next">
+            <img src="images/banner/seta-direita.png">
+        </a>
+        <div class="carousel-search">
+            <div class="container">
+                <form action="onde-encontrar.html" class="form-inline text-center form-search" role="form">
+                    <label data-scroll-reveal="enter left and move 20px over 1s">Lojas mais próximas:</label>
+                    <div class="input-group" data-scroll-reveal="enter right and move 20px over 1s">
+                        <input type="text" class="form-control" placeholder="Onde você está? ex.: Barra da Tijuca, RJ">
+                        <span class="input-group-btn">
+                        <button type="submit" class="btn transition" type="button">Buscar</button>
+                    </span>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="home-nossos-bolos">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <img src="images/tag/nossos-bolos.png" class="img-responsive tag" data-scroll-reveal="enter bottom and move 20px over 1s">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <a href="#">
+                        <div class="box-bolo" data-scroll-reveal="enter bottom and move 20px over 1s">
+                            <img src="images/bolos/tradicionais.png" class="img-responsive">
+                            <div class="box-text">
+                                <div class="box-text-content">
+                                    <div>
+                                        <h3>Tradicionais</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at volutpat massa.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-6">
+                    <a href="#">
+                        <div class="box-bolo" data-scroll-reveal="enter bottom and move 20px over 1s">
+                            <img src="images/bolos/especiais.png" class="img-responsive">
+                            <div class="box-text">
+                                <div class="box-text-content">
+                                    <div>
+                                        <h3>Especiais</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at volutpat massa.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-6">
+                    <a href="#">
+                        <div class="box-bolo" data-scroll-reveal="enter bottom and move 20px over 1s">
+                            <img src="images/bolos/diets.png" class="img-responsive">
+                            <div class="box-text">
+                                <div class="box-text-content">
+                                    <div>
+                                        <h3>Diets</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at volutpat massa.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-6">
+                    <a href="#">
+                        <div class="box-bolo" data-scroll-reveal="enter bottom and move 20px over 1s">
+                            <img src="images/bolos/festas.png" class="img-responsive">
+                            <div class="box-text">
+                                <div class="box-text-content">
+                                    <div>
+                                        <h3>Festas</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at volutpat massa.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="home-novidades">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <img src="images/tag/novidades.png" class="img-responsive tag" data-scroll-reveal="enter bottom and move 20px over 1s">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div id="carouselNovidades" class="carousel slide" data-ride="carousel" data-scroll-reveal="enter bottom and move 20px over 1s">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselNovidades" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselNovidades" data-slide-to="1"></li>
+                        </ol>
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <div class="row">
+                                    <div class="col-sm-6" data-scroll-reveal="enter left 40px">
+                                        <a href="#">
+                                            <div class="row">
+                                                <div class="col-sm-6"> <img src="images/novidades/novidades1.jpg" class="img-responsive pull-left"> </div>
+                                                <div class="col-sm-6">
+                                                    <div class="text">
+                                                        <h4>Chegou o bolo diet!!!</h4>
+                                                        <p>Donec sollicitudin porttitor lacus eget feugiat. Vivamus pharetra, eros a ultrices posuere, lacus arcu suscipit est, at faucibus sapien ligula vel est. Ut ornare, lacus nec consequat pulvinar portassa.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="row" data-scroll-reveal="enter right wait .3s 40px">
+                                            <a href="#">
+                                                <div class="col-sm-12">
+                                                    <div class="row">
+                                                        <div class="col-sm-3"> <img src="images/novidades/novidades2.jpg" class="img-responsive pull-left"> </div>
+                                                        <div class="col-sm-9">
+                                                            <div class="text">
+                                                                <h4>Título da notícia</h4>
+                                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing Donec sollicitudin porttitor lacus eget feugiat vamus pharetra, eros a ultrices posuere.</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="row" data-scroll-reveal="enter right wait .4s 40px">
+                                            <a href="#">
+                                                <div class="col-sm-12">
+                                                    <div class="row">
+                                                        <div class="col-sm-3"> <img src="images/novidades/novidades3.jpg" class="img-responsive pull-left"> </div>
+                                                        <div class="col-sm-9">
+                                                            <div class="text">
+                                                                <h4>Título da notícia 02</h4>
+                                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing Donec sollicitudin porttitor lacus eget feugiat vamus pharetra, eros a ultrices posuere.</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <a href="#">
+                                            <div class="row">
+                                                <div class="col-sm-6"> <img src="images/novidades/novidades1.jpg" class="img-responsive pull-left"> </div>
+                                                <div class="col-sm-6">
+                                                    <div class="text">
+                                                        <h4>Chegou o bolo diet!!!</h4>
+                                                        <p>Donec sollicitudin porttitor lacus eget feugiat. Vivamus pharetra, eros a ultrices posuere, lacus arcu suscipit est, at faucibus sapien ligula vel est. Ut ornare, lacus nec consequat pulvinar portassa.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="row">
+                                            <a href="#">
+                                                <div class="col-sm-12">
+                                                    <div class="row">
+                                                        <div class="col-sm-3"> <img src="images/novidades/novidades2.jpg" class="img-responsive pull-left"> </div>
+                                                        <div class="col-sm-9">
+                                                            <div class="text">
+                                                                <h4>Título da notícia</h4>
+                                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing Donec sollicitudin porttitor lacus eget feugiat vamus pharetra, eros a ultrices posuere.</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="row">
+                                            <a href="#">
+                                                <div class="col-sm-12">
+                                                    <div class="row">
+                                                        <div class="col-sm-3"> <img src="images/novidades/novidades3.jpg" class="img-responsive pull-left"> </div>
+                                                        <div class="col-sm-9">
+                                                            <div class="text">
+                                                                <h4>Título da notícia 02</h4>
+                                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing Donec sollicitudin porttitor lacus eget feugiat vamus pharetra, eros a ultrices posuere.</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="home-seja-um-franqueado">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <img src="images/tag/seja-um-franqueado.png" class="img-responsive tag" data-scroll-reveal="enter bottom and move 20px over 1s">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <img src="images/seja-um-franqueado/bolo-barato.png" class="img-responsive center item left" data-scroll-reveal="enter left and move 40px over 1s">
+                    <img src="images/seja-um-franqueado/baixo-investimento.png" class="img-responsive center item left" data-scroll-reveal="enter left and move 40px over 1s">
+                </div>
+                <div class="col-sm-4">
+                    <img src="images/seja-um-franqueado/vo-alzira.png" class="img-responsive center vo-alzira" data-scroll-reveal="enter bottom and move 40px over 1s">
+                </div>
+                <div class="col-sm-4">
+                    <img src="images/seja-um-franqueado/retorno-rapido.png" class="img-responsive center item right" data-scroll-reveal="enter right and move 40px over 1s">
+                    <img src="images/seja-um-franqueado/mais-de-150-lojas.png" class="img-responsive center item right" data-scroll-reveal="enter right and move 40px over 1s">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <a href="#" class="btn btn-danger text-uppercase transition" data-scroll-reveal="enter">saiba mais</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

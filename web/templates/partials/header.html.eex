@@ -1,0 +1,32 @@
+<header>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-top">
+                <div class="navbar-top-text">
+                    <div class="navbar-top-bg transition"></div>
+                    <a href="#">Portal do franqueado</a>
+                </div>
+            </div>
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img src="images/header/logo-fabrica-de-bolo.png" class="img-responsive">
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="onde-encontrar.html">Lojas</a></li>
+                    <li><a href="#">nossos Bolos</a></li>
+                    <li><a href="#">Novidades</a></li>
+                    <li><a href="#">Imprensa</a></li>
+                    <li><a href="#">Contato</a></li>
+                    <li><a href="#">Seja um franqueado</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>

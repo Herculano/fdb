@@ -1,0 +1,35 @@
+<footer>
+    <div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <form class="form-inline form-search" role="form">
+                        <label data-scroll-reveal="enter left and move 20px over 1s">
+                            <img src="images/footer/email.png" class="img-responsive pull-left" data-scroll-reveal="enter left and move 40px over 1s">
+                            <span>Fique por dentro das novidades</span>
+                        </label>
+                        <div class="input-group name" data-scroll-reveal="enter">
+                            <input type="text" class="form-control" placeholder="Nome">
+                        </div>
+                        <div class="input-group email" data-scroll-reveal="enter">
+                            <input type="text" class="form-control" placeholder="E-mail">
+                            <span class="input-group-btn">
+                              <button class="btn transition" type="button">Enviar</button>
+                            </span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <span>2016 © Fábrica de Bolo - Todos os direitos reservados</span>
+                    <a href="http://dizain.com.br/" target="_blank" class="transition">Desenvolvido por Diz’ain</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>

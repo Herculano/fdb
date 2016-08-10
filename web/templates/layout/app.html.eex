@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Fabrica de Bolo</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Alex+Brush' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
+   
+    <script type="text/javascript" src="<%= static_path(@conn, "/js/vendor.js") %>"></script>
+
+</head>
+<body>
+    <%= render FabricaDeBolo.PartialsView, "header.html" %>
+
+    <%= render @view_module, @view_template, assigns %>
+
+    <%= render FabricaDeBolo.PartialsView, "footer.html" %>
+
+     <script type="text/javascript" src="<%= static_path(@conn, "/js/app.js") %>"></script>
+</body>
+</html>
